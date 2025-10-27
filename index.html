@@ -12,10 +12,29 @@
       color :#ffffff;
     }
     
-    /* KODE CSS PENTING UNTUK SEMBUNYIKAN JUDUL "MIKHMON" */
+    /* KODE PENTING UNTUK SEMBUNYIKAN JUDUL "MIKHMON" */
     #mainbody > div[align="center"] {
       display: none !important;
     }
+
+    /* KODE BARU UNTUK JUDUL ANDA (DIBERI WARNA KUNING UNTUK TES) */
+    .judul-anda {
+      padding-bottom:10px; 
+      color: #FFFF00; /* WARNA KUNING */
+      font-family: sans-serif; 
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center; /* Pastikan di tengah */
+    }
+    .judul-anda span {
+      font-size: 12px;
+      color: #FFFFFF; /* Teks "Powered by" */
+      font-weight: normal;
+    }
+    .judul-anda a {
+      font-size: 12px;
+      color: #20a8d8; /* Warna link "webqr.com" */
+    }
 
     video {
       width: 100%    !important;
@@ -76,7 +95,7 @@
     <div id="main">
       <div id="mainbody">
         
-                <div style="padding-bottom:10px; color:white; font-family: sans-serif; font-size: 16px;">AJHY QR CODE SCANNER <br><span style="font-size:12px;">Powered 2025 by <a href="http://www.webqr.com">webqr.com</a></span></div>
+                <div class="judul-anda">AJHY QR CODE SCANNER <br><span>Powered 2025 by <a href="http://www.webqr.com">webqr.com</a></span></div>
         
         <div class="camera" id="outdiv"></div>
         <div style="display: table;">
