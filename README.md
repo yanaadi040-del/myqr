@@ -11,7 +11,7 @@
 ```
 /ip hotspot walled-garden ip
 
-add action=accept comment="Ajhy QR Code Scanner" disabled=no dst-host=laksa19.github.io
+add action=accept comment="Ajhy QR Code Scanner" disabled=no dst-host=yanaadi040-del.github.io
 ```
 
-### Powered by webqr.com
+### Powered 2025 by webqr.com
